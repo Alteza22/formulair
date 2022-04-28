@@ -16,26 +16,24 @@
         <div class="container">
             <div class="cont-image"></div>
             <div class="cont-form">
-                <form action="post">
+                <form action="#" meta="post"  novalidate="on">
                     <div class="names">                        
-                        <label for="text" >prenom</label>
-                        <input id="prenom" type="text">                                                    
-                        <label for="inputlg">nom</label>
-                        <input  id="nom" type="text">                          
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" value="John"><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" value="Doe"><br><br>                          
                     </div>
-                    <div class="nomes">
-                    
-                    <label for="text" class="">username</label>
-                    
-                    <input type="email" name="name" class="form">
+                    <div class="nomes">                    
+                    <label for="text" class="">username</label>                   
+                    <input type="text" name="email" >
                     <label for="email">e-mail adress</label>
-                    <input type="text" name="name" class="form">
+                    <input type="email" name="email" class="form" required>
                     <label for="text" class="">gender</label>
                     <input type="text" name="name" class="form">
                     <label for="password" class="">password</label>
-                    <input type="password" name="name"  class="form">
+                    <input type="password" name="password"  class="pws" required>
                     <label for="password" class="">confir password</label>
-                    <input type="password" name="name" class="form">
+                    <input type="password" name="password" class="pws" required>
                     <button type="submit" name="name">Register</button>
                 </div>
                 </form>
